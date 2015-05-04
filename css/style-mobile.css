@@ -1,0 +1,466 @@
+/*.buttons-semir{
+	text-align: center;
+}
+.buttons-semir a{
+	text-decoration: none;
+	font-weight: 600;
+	padding: 10px 20px;
+	color: #fff;
+	background-color: #52ba57;
+	border-radius: 9px;
+	border: 2px solid #FFFFFF;
+}
+.buttons-semir a:hover{
+	background-color: #007919;
+}*/
+
+
+.ui-title img{
+  width: 100%;
+}
+.images-mobile{
+  width: 100%;
+}
+
+#header-image h1{
+  margin: 0px 0%;
+  padding: 0px 0px;
+  margin-bottom: -7px;
+}
+#menu {
+  display:none;
+}
+.menu-hide{
+  display: none;
+}
+#menu-contact {
+  display:none;
+}
+#menu-home {
+  display:none;
+}
+#menu-ourteam {
+  display:none;
+}
+#menu-patientinfo {
+  display:none;
+}
+#menu-services {
+  display:none;
+}
+#menu-patientform {
+  display:none;
+}
+#menu-newbuffalo {
+  display:none;
+}
+.floatnav{
+  position: relative;
+  float: left;
+  width: 2em;
+  background-color:transparent !important;
+  margin-left: 2%; 
+}
+.ui-grid-a div{
+	padding: 0px 3%;
+}
+.ui-grid-solo div{
+	padding: 0px 3%;		
+}
+.buttons-radius{
+	border-radius: 0px; 
+}
+input#contact-submit-dugme {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  line-height: 1.3 !important;
+  font-size: 2em;
+  width: 100%;
+  border-radius: 8px;
+  background: -webkit-linear-gradient(#777777, rgb(37, 37, 37));
+  background: -o-linear-gradient(#777777, rgb(37, 37, 37));
+  background: linear-gradient(#777777, rgb(37, 37, 37));
+  border-color: #1f1f1f /*{b-bup-border}*/;
+  color: #fff /*{b-bup-color}*/;
+  text-shadow: 0 /*{b-bup-shadow-x}*/ 1px /*{b-bup-shadow-y}*/ 0 /*{b-bup-shadow-radius}*/ #111 /*{b-bup-shadow-color}*/;
+}
+.ui-content{
+  padding: 0px;
+}
+.navigation-menu{
+  width: 100%;
+  height: 35px;
+}
+/*css za hamburger menu//////////////////////////////////////////////////////////////////////////////////////*/
+.menu-btn div {
+  position: absolute;
+  left: 100%;
+  top: 64%;
+  padding-right: 8px;
+  margin-top: -0.50em;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 200;
+  vertical-align: middle;
+  z-index: 99;
+}
+
+.menu-btn span {
+  display: block;
+  width: 19px;
+  height: 3px;
+  margin: 4px 0;
+  background: rgb(0,0,0);
+  z-index: 99;
+}
+
+.responsive-menu{
+  display: none;
+}
+
+.expand {
+  display: block !important; 
+}
+/*css za hamburger menu//////////////////////////////////////////////////////////////////////////////////////*/
+/*css za slajder//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+.events {
+  list-style: none;
+  }
+
+.callbacks_container {
+  clear: both;
+  width: 100%;
+  }
+.callbacks_container ul{
+  list-decoration:none;
+}
+
+
+.callbacks {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.callbacks li {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.callbacks img {
+  display: block;
+  position: relative;
+  z-index: 1;
+  height: auto;
+  width: 100%;
+  border: 0;
+  }
+
+.callbacks .caption {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  font-size: 20px;
+  text-shadow: none;
+  color: #fff;
+  background: #000;
+  background: rgba(0,0,0, .8);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 20px;
+  margin: 0;
+  max-width: none;
+  }
+
+.callbacks_nav {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 25em;
+  left: 0;
+  opacity: 0.7;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 61px;
+  width: 38px;
+  background: transparent url("../img/themes.png") no-repeat left top;
+  margin-top: -45px;
+  }
+
+.callbacks_nav:active {
+  opacity: 1.0;
+  }
+
+.callbacks_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 0;
+  }
+
+#slider3-pager a {
+  display: inline-block;
+}
+
+#slider3-pager img {
+  float: left;
+}
+
+#slider3-pager .rslides_here a {
+  background: transparent;
+  box-shadow: 0 0 0 2px #666;
+}
+
+#slider3-pager a {
+  padding: 0;
+}
+.features{
+  background: #0867AE !important;
+}
+.blog{
+  background: #118276 !important;
+}
+.galery{
+  background: #12a999  !important;
+}
+.aboutus{
+  background: #118276 !important;
+}
+.office {
+  background: #0867AE !important;
+}
+.inputbtn {
+  background: white !important;
+  color: blue !important;
+}
+.facebook-bk{
+  background: #3B5998 !important;
+  height: 3em  !important;
+}
+.google-bk{
+  background: #DD4B39 !important;
+  height: 3em  !important;
+}
+.twitter-bk{
+  background: #56A3D9 !important;
+  height: 3em  !important;
+}
+.inputformbtn {
+  background: #118276 !important;
+  font-size: 2em; 
+}
+
+.marginside{
+  margin: 0px 3%;
+}
+.social-picture {
+  width: 58px;
+  margin-left: -6px;
+}
+.featuresimg {
+  width: 100%;
+}
+.textfeatures{
+  background: gainsboro; 
+  color: black;
+}
+/*employe section=============================================================*/
+.person-text{
+	background-color: rgba(76, 121, 74, 0.7);
+	margin: 0;
+	width: 56.99%;
+	height: 96px;
+	visibility: hidden;
+	position: relative;
+	z-index: 99999;
+	opacity: 0;
+	margin-top: 7%;
+	margin-left: 40.54%;
+	float: left;
+	/*border-radius: 4px;*/
+	
+	-webkit-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	-moz-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	-o-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	transition:opacity 0.2s linear, visibility 0.2s linear;
+}
+.person-text p{
+	padding-left: 12px;
+	padding-top: 8px;
+	font-size: 1.1em;
+}
+
+.person1{
+	width:298px;
+	height: 197px;
+	background: url(../../../../img/main-about-us-images/employe/1-zaposleni.png);
+	position: relative;
+	float: left;
+}
+.person1:hover .person-text1{
+	visibility:visible;
+	opacity:1;	
+}
+.person2{
+	width:298px;
+	height: 197px;
+	background: url(../../../../img/main-about-us-images/employe/2-zaposleni.png);
+	position: relative;
+	float: left;
+}
+.person2:hover .person-text2{
+	visibility:visible;
+	opacity:1;	
+}
+.person3{
+	width:298px;
+	height: 197px;
+	background: url(../../../../img/main-about-us-images/employe/3-zaposleni.png);
+	position: relative;
+	float: left;
+}
+.person3:hover .person-text3{
+	visibility:visible;
+	opacity:1;	
+}
+.person4{
+	width:298px;
+	height: 197px;
+	background: url(../../../../img/main-about-us-images/employe/4-zaposleni.png);
+	position: relative;
+	float: left;
+}
+.person4:hover .person-text4{
+	visibility:visible;
+	opacity:1;	
+}
+.person5{
+	width:298px;
+	height: 197px;
+	background: url(../../../../img/main-about-us-images/employe/5-zaposleni.png);
+	position: relative;
+	float: left;
+}
+.person5:hover .person-text5{
+	visibility:visible;
+	opacity:1;	
+}
+.person6{
+	width:298px;
+	height: 197px;
+	background: url(../../../../img/main-about-us-images/employe/6-zaposleni.png);
+	position: relative;
+	float: left;
+}
+.person6:hover .person-text6{
+	visibility:visible;
+	opacity:1;	
+}
+.person7{
+	width:298px;
+	height: 197px;
+	background: url(../../../../img/main-about-us-images/employe/7-zaposleni.png);
+	position: relative;
+	float: left;
+}
+.person7:hover .person-text7{
+	visibility:visible;
+	opacity:1;	
+}
+.person8{
+	width:298px;
+	height: 197px;
+	background: url(../../../../img/main-about-us-images/employe/8-zaposleni.png);
+	position: relative;
+	float: left;
+}
+.person8:hover .person-text8{
+	visibility:visible;
+	opacity:1;	
+}
+.person9{
+	width:298px;
+	height: 197px;
+	background: url(../../../../img/main-about-us-images/employe/9-zaposleni.png);
+	position: relative;
+	float: left;
+}
+.person9:hover .person-text9{
+	visibility:visible;
+	opacity:1;	
+}
+.person10{
+	width:298px;
+	height: 197px;
+	background: url(../../../../img/main-about-us-images/employe/10-zaposleni.png);
+	position: relative;
+	float: left;
+}
+.person10:hover .person-text10{
+	visibility:visible;
+	opacity:1;	
+}
+.person11{
+	width:298px;
+	height: 197px;
+	background: url(../../../../img/main-about-us-images/employe/11-zaposleni.png);
+	position: relative;
+	float: left;
+}
+.person11:hover .person-text11{
+	visibility:visible;
+	opacity:1;	
+}
+.person12{
+	width:298px;
+	height: 197px;
+	background: url(../../../../img/main-about-us-images/employe/12-zaposleni.png);
+	position: relative;
+	float: left;
+}
+.person12:hover .person-text12{
+	visibility:visible;
+	opacity:1;	
+}
+/*employe section=============================================================*/
+.callfind {
+  line-height: 0.3 !important;
+}
